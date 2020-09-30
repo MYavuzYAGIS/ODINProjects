@@ -1,0 +1,372 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: Roboto;
+    color: rgb(82,82,82);
+}
+
+ul li{
+    list-style-type: none;
+}
+i{
+    display: inline-block;
+}
+html{
+    font-size:10px;
+}
+
+body{
+    background-color: rgb(236,238,241);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1rem 3rem 2rem;
+}
+
+
+.sign-in-container{
+    display: grid;
+    grid-template: auto/auto auto;
+    justify-content: end;
+    align-items: center;
+    justify-items: center;
+}
+
+.sign-in-container p
+.sign-in-container a{
+    font-size: 1.2em;
+}
+
+.sign-in-container a{
+    text-decoration: none;
+    color: rgb(0,119,197);
+}
+
+
+.sign-in-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    grid-column: 2;
+    grid-row: 1 /3;
+    height: 3.4rem;
+    widows: 10rem;
+    border-radius: 5px;
+    border: 1px solid rgb(82,82,82);
+    background-color: rgb(0, 119, 197);
+}
+
+.sign-in-btn{
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.lock-img{
+    width: 2.4rem;
+    height:2.4rem;
+    margin-left: -6px;
+    background-image: url("https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+main {
+    flex-grow: 1;
+    margin: 2rem 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 118px;
+    height: 36px;
+    opacity: 0;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+    animation: appear 2s 1s forwards;
+}
+
+.sub-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px 0;
+}
+
+.sub-logo li {
+    display: flex;
+}
+
+.sub-logo li * {
+    height: 24px;
+}
+
+.sub-logo i {
+    position: absolute;
+    visibility: hidden;
+    animation: translate ease-out 600ms 1s forwards;
+}
+
+.logo-ico {
+    width: 24px;
+}
+
+.logo-text {
+    margin: 0 10px 0 3px;
+}
+
+i.mint-logo {
+    position: initial;
+    visibility: initial;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg)
+    no-repeat;
+    animation: pulse 500ms 2 alternate, translate ease-out 600ms 1s forwards;
+}
+
+.mint-text-logo {
+    width: 40px;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-text-0fa36974.svg)
+    no-repeat;
+    background-position: center;
+}
+
+.quickbooks-logo {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg)
+    no-repeat;
+}
+
+.quickbooks-text-logo {
+    width: 100px;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg)
+    no-repeat;
+    background-position: center;
+}
+
+.turbotax-logo {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg)
+    no-repeat;
+}
+
+.turbotax-text-logo {
+    width: 75px;
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/turbo-tax-text-9bc025c5.svg)
+    no-repeat;
+    background-position: center;
+}
+
+@keyframes pulse {
+    100% {
+        transform: scale(2);
+    }
+}
+
+
+.form-wrapper {
+    margin: 0 auto;
+    width: 380px;
+}
+
+@media only screen and (max-width: 760px) {
+    header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .form-wrapper {
+        width: auto;
+    }
+}
+
+form {
+    padding: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: #fff;
+}
+
+form .title {
+    text-align: center;
+}
+
+form .title p {
+    padding-top: 20px;
+    font-size: 1.3rem;
+}
+
+form .title a {
+    font-size: 1.2rem;
+}
+
+form .title p,
+form label {
+    color: rgb(64, 64, 64);
+}
+
+form h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+form a {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+
+form li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+form label {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+
+.input-info {
+    padding-top: 6px;
+}
+
+form input {
+    padding: 6px;
+    padding-right: 40px;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    border: 1px solid rgb(199, 199, 199);
+    color: #000;
+}
+
+input[type='password'] {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 96%;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background-color: rgb(0, 119, 197);
+}
+
+form button span {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.terms {
+    padding: 40px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(117, 117, 117);
+}
+
+form footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -30px;
+    padding: 20px 30px;
+    font-size: 1rem;
+    background-color: rgb(236, 238, 241);
+}
+
+form footer p {
+    color: rgb(141, 144, 150);
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li + li {
+    padding-left: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
+}
+
+/* aside */
+
+aside {
+    position: fixed;
+    right: 5%;
+    bottom: 0;
+}
+
+aside button {
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(107, 108, 114);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

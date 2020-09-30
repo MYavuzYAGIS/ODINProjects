@@ -1,0 +1,472 @@
+/* CSS RESET FROM MEYERWEB.COM----------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* TOP STRIP-------------------------------------------------------- */
+
+header {
+  background-color: white;
+  height: 60px;
+  padding-top: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.top-left,
+.top-right {
+  box-sizing: content-box;
+  display: inline-block;
+  height: 50px;
+  padding-right: 10px;
+}
+
+.top-left {
+  width: 20%;
+  padding-left: 10px;
+}
+
+.search-bar {
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 52.5%;
+  height: 32px;
+}
+
+.search-field {
+  width: calc(100% - 80px);
+  height: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.search-button-box {
+  background: #F8F8F8;
+  box-sizing: border-box;
+  border-left: 1px solid lightgrey;
+  display: inline-block;
+  width: 76px;
+  height: 100%;
+  vertical-align: top;
+}
+
+.top-right {
+  width: auto;
+  float: right;
+}
+
+.top-right img {
+padding-left: 20px;
+}
+
+/* ASIDE----------------------------------------------------------- */
+
+
+aside {
+  margin-left: 10px;
+  float: right;
+  max-width: 38vw;
+}
+
+.up-next {
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+
+.up-next-right {
+  position: relative;
+  float: right;
+}
+
+.autoplay {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.up-next img {
+  display: inline-block;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.up-next img,
+.up-next span {
+  vertical-align: middle;
+}
+
+.side-bar {
+  margin-bottom: 8px;
+}
+
+.side-bar img {
+  height: 90px;
+  width: 160px;
+}
+
+.vid-01 {
+  padding-bottom: 8px;
+  border-bottom: 1px lightgrey solid;
+}
+
+.side-vid-description,
+.side-bar img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.side-vid-description {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.youtuber,
+.views {
+  font-size: 13px;
+  color: grey;
+  padding-bottom: 8px;
+}
+
+/* MAIN VIDEO AREA----------------------------------------------------- */
+
+.main-video {
+  margin-left: 15px;
+  top: 25px;
+}
+.wrapper {
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 54%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+h1  {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.under-vid-strip:not(.right) {
+  border-bottom: 1px lightgrey solid;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  width: 58%;
+}
+
+.under-vid-strip > * {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  color: grey;
+}
+
+.right {
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.right > *:not(.to-be-bold),
+.to-be-bold > * {
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.to-be-bold {
+  box-sizing: border-box;
+  border-bottom: 2px grey solid;
+  height: 42px;
+  vertical-align: top;
+}
+
+main {
+  min-width: 560px;
+  padding-top: 70px;
+}
+
+/* DESCRIPTION BOX-------------------------------------------- */
+
+.description-box {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px lightgrey solid;
+  width: 58%;
+}
+
+.avatar-wrapper,
+.description {
+  display: inline-block;
+  height: 150px;
+  vertical-align: middle;
+}
+
+.avatar-wrapper {
+  margin-right: 10px;
+}
+
+.youtuber-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.subscribers-no {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.subscribe-box {
+  background-color: #CC0000;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.description :nth-child(3) {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.show-more {
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* COMMENT SECTION-------------------------------------------- */
+
+.comment-section {
+  float: left;
+  margin-left: 15px;
+  width: 58%;
+}
+
+.above-comments,
+.adding-comments {
+  margin-bottom: 15px;
+}
+
+.above-comments > * {
+  display: inline-block;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.above-comments :first-child {
+  padding-right: 18px;
+}
+
+.above-comments :nth-child(3) {
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  padding-left: 7px;
+}
+
+.adding-comments > *:not(img),
+.user-icon,
+.brunt-of-comment {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#last {
+  max-width: 650px;
+}
+
+.img-wrapper,
+.user-icon {
+  margin-right: 10px;
+  padding: 0 4px;
+}
+
+.adding-comments form {
+  border-bottom: 1px grey solid;
+  font-size: 15px;
+  opacity: 0.5;
+  padding-bottom: 8px;
+  width: 91.4%;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.posted-ago {
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.top-line,
+.content {
+  padding-bottom: 10px;
+}
+
+.like-line {
+  margin-bottom: 25px;
+}
+
+.like-line span,
+.like-line img{
+  font-size: 12px;
+  font-weight: bold;
+  height: 15px;
+  opacity: 0.5;
+  padding-right: 10px;
+}
+
+/* ICONS----------------------------------------------------- */
+
+.icon-main {
+  height: 20px;
+  opacity: 0.7;
+}
+
+.yt-logo,
+.search-bar,
+.icon-main  {
+  vertical-align: middle;
+}
+
+#search-button {
+  height: 15px;
+  transform: translate(200%, 50%);
+}
+
+.user-icon {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.under-vid-strip p,
+.right img,
+.to-be-bold img,
+.to-be-bold p,
+.sort img {
+  height: 18px;
+  opacity: 0.5;
+}
+
+/* .like-line img,
+.reply-line img {
+  height: 18px;
+  opacity: 0.5;
+} */
+
+.yt-logo {
+  height: 50px;
+}
+
+.above-comments img {
+  opacity: 0.5;
+  padding-left: 7px;
+  bottom: 5px;
+}
+
+.author img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+img {
+  position: relative;
+  cursor: pointer;
+}
+
+.comment-avatar {
+  height: 42px;
+}
+
+.user-icon img {
+  border-radius: 50%;
+  height: 42px;
+}
+
+/* TODO:
+whole comment section*/
