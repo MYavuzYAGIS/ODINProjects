@@ -1,0 +1,121 @@
+@media(max-width: 1024px){
+
+    *{
+        box-sizing: border-box;
+
+    }
+    
+    body{
+        width: 700px;
+    } 
+
+    .page-header{
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+
+    #news{
+        padding-right:0;
+        padding-left:0;
+        margin-right:auto;
+        margin-left:auto
+    }
+    
+    .navbar,
+    .top-hr,
+    .bottom-hr{
+        display: none;
+    }
+    
+    .Newsweek{
+        margin-top: 4rem;
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+    
+    #top-story .header_feat{
+        text-align: center;
+        margin: auto;
+    }
+    #top-story .img_big{
+        width: 100px;
+    }
+
+    .body-big{
+        width: 130%;
+    }
+
+    .card-img-b-overlay{
+        width: 300px;
+    }
+    #news .card-body{
+        padding: 20px 0;
+    }
+
+
+    #featured img{
+        width: 150px;
+    }
+
+    #featured article{
+        display: inline-block;
+        width: 40%;
+        float: right;
+        margin: auto;
+    }
+
+    .top-left > * {
+        margin-top: 10%;
+        margin-bottom: 3%;
+        margin-left: auto;
+    }
+
+    .toptop{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar,
+    .x1,
+    .x2{
+        display: hidden;
+    }
+
+    .btn1,
+    .btn-2{
+        font-size: 11px;
+    }
+
+    
+    #others {
+        display: hidden;
+    }
+
+    #top-story{
+        display: block;
+        margin: auto;
+    }
+    img{
+        display: block;
+        margin-right: 10rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
