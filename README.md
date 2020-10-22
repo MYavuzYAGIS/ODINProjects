@@ -16,10 +16,14 @@
   
   ## Newsweek Page
   
+  `https://github.com/MYavuzYAGIS/ODINProjects/tree/master/Newsweek%20bootstrap`
+  
   ![newsweek](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/SS/newsweek1.png)
   
   
   ## Apple Webpage 
+  
+  `https://github.com/MYavuzYAGIS/ODINProjects/tree/master/ODIN%20Apple`
   
   ![GitHub Logo](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/SS/apple.png)
   
@@ -27,11 +31,15 @@
   
   ## Intuit Login/ Signup Page
   
+  `https://github.com/MYavuzYAGIS/ODINProjects/tree/master/Odin_Replicate_2-master/Signup%20Page%20Design`
+  
   ![GitHub Logo](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/SS/intuit.png)
   
   
   
   ## YouTube Clone
+  
+  `https://github.com/MYavuzYAGIS/ODINProjects/tree/master/Odin-YouTubeClone-master`
   
   ![GitHub Youtube](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/SS/odin-Youtube1.png)
   
@@ -39,9 +47,13 @@
   
   ## Smashing clone
   
+  `https://github.com/MYavuzYAGIS/ODINProjects/tree/master/ODIN%20Smashing`
+  
   ![smashing](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/SS/smashing1.png)
   
   
   ## The Next Web
+  
+  ` https://github.com/MYavuzYAGIS/ODINProjects/tree/master/The%20Next%20Web`
   
   ![the Next Web](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/SS/the%20Next%20Web.png)
