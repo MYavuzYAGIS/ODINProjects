@@ -1,7 +1,7 @@
   #THE ODIN PROJECT // Newsweek Replication
 
 
-![alt text](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/Newsweek%20bootstrap/newsweek.png)
+![alt text](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/Newsweek%20bootstrap/newsweek1.png)
 
 
 ## About this Project:
