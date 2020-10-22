@@ -19,4 +19,4 @@ So I believe that I nailed that, but I have to admit that I do not have the nerv
 
 Here it what is looks like :
 
-![Image of Yaktocat](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/Odin-YouTubeClone-master/Screen%20Shot%202020-09-12%20at%2014.06.14.png)
+![Image of OdinYouTube](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/Odin-YouTubeClone-master/odin-Youtube1.png)
