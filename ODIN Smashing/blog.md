@@ -16,4 +16,4 @@ If you want to see the end product, look down.
 
 
 
-![Image Smashing ](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/ODIN%20Smashing/smashing.png)
+![Image Smashing ](https://github.com/MYavuzYAGIS/ODINProjects/blob/master/ODIN%20Smashing/smashing1.png)
